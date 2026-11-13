@@ -15,6 +15,11 @@
 
 <br><br>
 
+<img src="assets/h-about.svg" alt="About" width="100%">
+<img src="assets/about.svg" alt="Machine learning engineer who builds AI close to the metal. M.Sc. Biomedical Engineering at Sharif University of Technology, B.Sc. at Islamic Azad University. English and Persian fluent or native, German and Chinese intermediate." width="100%">
+
+<br><br>
+
 <img src="assets/h-now.svg" alt="Now" width="100%">
 <img src="assets/now.svg" alt="Noban: an on-device assistant for elderly emergency response. Peekage: PeekAI and Peek Design agents." width="100%">
 
