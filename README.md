@@ -21,6 +21,9 @@
 <br><br>
 
 <img src="assets/h-work.svg" alt="Selected work" width="100%">
+<img src="assets/tile-crm.svg" alt="Team CRM, a private project. Persian, right-to-left, Jalali calendar, deal pipeline, team chat. Next.js, React, TypeScript, Prisma, PostgreSQL, Docker." width="100%">
+
+<br>
 
 <a href="https://github.com/MGE-GOAT/Wake-Up"><img src="assets/tile-wake-up.svg" alt="Wake-Up" width="32%"></a>
 <a href="https://github.com/MGE-GOAT/MGE_GOAT"><img src="assets/tile-mge-goat.svg" alt="MGE_GOAT" width="32%"></a>
