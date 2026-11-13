@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150"><defs><style>
+.o{fill:none;stroke:#eceff6;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.f{fill:#4f8cff;stroke:#eceff6;stroke-width:2.6;stroke-linejoin:round;stroke-linecap:round}
+.b{fill:#171b25;stroke:#eceff6;stroke-width:2.6;stroke-linejoin:round;stroke-linecap:round}
+.sh{fill:#9b7bff;opacity:.4}
+.dot{fill:#eceff6}
+.scr{fill:#05070a;stroke:#eceff6;stroke-width:2}
+.eye{fill:#4f8cff;transform-box:fill-box;transform-origin:center;animation:bl 4.2s infinite}
+.wing{transform-box:fill-box;transform-origin:50% 100%;animation:fl .24s ease-in-out infinite alternate}
+.needle{transform-box:fill-box;transform-origin:50% 100%;animation:nd 4s ease-in-out infinite}
+.wv{opacity:.25;animation:wv 1.6s ease-in-out infinite} .w2{animation-delay:.3s}
+@keyframes bl{0%,92%,100%{transform:scaleY(1)}96%{transform:scaleY(.1)}}
+@keyframes fl{to{transform:scaleY(.55) rotate(6deg)}}
+@keyframes nd{0%,100%{transform:rotate(-38deg)}45%{transform:rotate(32deg)}70%{transform:rotate(10deg)}}
+@keyframes wv{50%{opacity:1}}
+@keyframes pulse{50%{opacity:.3}}
+</style><linearGradient id="gb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4f8cff"/><stop offset="1" stop-color="#9b7bff"/></linearGradient><linearGradient id="gc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9b7bff"/><stop offset="1" stop-color="#ff7a59"/></linearGradient><linearGradient id="gline" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4f8cff"/><stop offset=".55" stop-color="#9b7bff"/><stop offset="1" stop-color="#ff7a59"/></linearGradient></defs><rect x="0" y="0" width="288" height="150" rx="18" fill="#0f131b" stroke="#1c2230"/><rect x="24" y="0" width="56" height="3" rx="1.5" fill="url(#gb)"/><text x="24" y="78" font-family="Georgia,'Times New Roman',serif" font-size="52" fill="url(#gb)">~20 ms</text><text x="24" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#8a93a6">wake word on a Raspberry Pi 4</text><rect x="304" y="0" width="288" height="150" rx="18" fill="#0f131b" stroke="#1c2230"/><rect x="328" y="0" width="56" height="3" rx="1.5" fill="url(#gb)"/><text x="328" y="78" font-family="Georgia,'Times New Roman',serif" font-size="52" fill="url(#gb)">182 KB</text><text x="328" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#8a93a6">INT8 wake-word model</text><rect x="608" y="0" width="288" height="150" rx="18" fill="#0f131b" stroke="#1c2230"/><rect x="632" y="0" width="56" height="3" rx="1.5" fill="url(#gc)"/><text x="632" y="78" font-family="Georgia,'Times New Roman',serif" font-size="52" fill="url(#gc)">60 → 3</text><text x="632" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#8a93a6">false activations in a 388 h stress test</text><rect x="912" y="0" width="288" height="150" rx="18" fill="#0f131b" stroke="#1c2230"/><rect x="936" y="0" width="56" height="3" rx="1.5" fill="url(#gc)"/><text x="936" y="78" font-family="Georgia,'Times New Roman',serif" font-size="52" fill="url(#gc)">12 → 2</text><text x="936" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#8a93a6">model calls for a chart turn</text></svg>

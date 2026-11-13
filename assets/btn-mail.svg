@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 134 44" width="134" height="44"><defs><style>
+.o{fill:none;stroke:#eceff6;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.f{fill:#4f8cff;stroke:#eceff6;stroke-width:2.6;stroke-linejoin:round;stroke-linecap:round}
+.b{fill:#171b25;stroke:#eceff6;stroke-width:2.6;stroke-linejoin:round;stroke-linecap:round}
+.sh{fill:#9b7bff;opacity:.4}
+.dot{fill:#eceff6}
+.scr{fill:#05070a;stroke:#eceff6;stroke-width:2}
+.eye{fill:#4f8cff;transform-box:fill-box;transform-origin:center;animation:bl 4.2s infinite}
+.wing{transform-box:fill-box;transform-origin:50% 100%;animation:fl .24s ease-in-out infinite alternate}
+.needle{transform-box:fill-box;transform-origin:50% 100%;animation:nd 4s ease-in-out infinite}
+.wv{opacity:.25;animation:wv 1.6s ease-in-out infinite} .w2{animation-delay:.3s}
+@keyframes bl{0%,92%,100%{transform:scaleY(1)}96%{transform:scaleY(.1)}}
+@keyframes fl{to{transform:scaleY(.55) rotate(6deg)}}
+@keyframes nd{0%,100%{transform:rotate(-38deg)}45%{transform:rotate(32deg)}70%{transform:rotate(10deg)}}
+@keyframes wv{50%{opacity:1}}
+@keyframes pulse{50%{opacity:.3}}
+</style><linearGradient id="gb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4f8cff"/><stop offset="1" stop-color="#9b7bff"/></linearGradient><linearGradient id="gc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9b7bff"/><stop offset="1" stop-color="#ff7a59"/></linearGradient><linearGradient id="gline" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4f8cff"/><stop offset=".55" stop-color="#9b7bff"/><stop offset="1" stop-color="#ff7a59"/></linearGradient></defs><rect x=".5" y=".5" width="133" height="43" rx="21.5" fill="#0f131b" stroke="#1c2230"/><text x="67.0" y="27.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" fill="#eceff6">Say hello</text></svg>

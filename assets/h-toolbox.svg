@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 64" width="1200" height="64"><defs><style>
+.o{fill:none;stroke:#eceff6;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.f{fill:#4f8cff;stroke:#eceff6;stroke-width:2.6;stroke-linejoin:round;stroke-linecap:round}
+.b{fill:#171b25;stroke:#eceff6;stroke-width:2.6;stroke-linejoin:round;stroke-linecap:round}
+.sh{fill:#9b7bff;opacity:.4}
+.dot{fill:#eceff6}
+.scr{fill:#05070a;stroke:#eceff6;stroke-width:2}
+.eye{fill:#4f8cff;transform-box:fill-box;transform-origin:center;animation:bl 4.2s infinite}
+.wing{transform-box:fill-box;transform-origin:50% 100%;animation:fl .24s ease-in-out infinite alternate}
+.needle{transform-box:fill-box;transform-origin:50% 100%;animation:nd 4s ease-in-out infinite}
+.wv{opacity:.25;animation:wv 1.6s ease-in-out infinite} .w2{animation-delay:.3s}
+@keyframes bl{0%,92%,100%{transform:scaleY(1)}96%{transform:scaleY(.1)}}
+@keyframes fl{to{transform:scaleY(.55) rotate(6deg)}}
+@keyframes nd{0%,100%{transform:rotate(-38deg)}45%{transform:rotate(32deg)}70%{transform:rotate(10deg)}}
+@keyframes wv{50%{opacity:1}}
+@keyframes pulse{50%{opacity:.3}}
+</style><linearGradient id="gb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4f8cff"/><stop offset="1" stop-color="#9b7bff"/></linearGradient><linearGradient id="gc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9b7bff"/><stop offset="1" stop-color="#ff7a59"/></linearGradient><linearGradient id="gline" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4f8cff"/><stop offset=".55" stop-color="#9b7bff"/><stop offset="1" stop-color="#ff7a59"/></linearGradient></defs><text x="2" y="44" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#ff7a59">04</text><text x="44" y="46" font-family="Georgia,'Times New Roman',serif" font-size="38" fill="#eceff6">Toolbox</text><rect x="0" y="58" width="1200" height="1" fill="#1c2230"/><rect x="0" y="57" width="240" height="3" rx="1.5" fill="url(#gline)"><animate attributeName="width" values="0;240" dur="1.2s" fill="freeze"/></rect></svg>
