@@ -26,7 +26,7 @@
 <br><br>
 
 <img src="assets/h-work.svg" alt="Selected work" width="100%">
-<img src="assets/tile-crm.svg" alt="Team CRM, a private project. Persian, right-to-left, Jalali calendar, invoice workflow, team chat. Next.js, React, TypeScript, Prisma, PostgreSQL, Docker." width="100%">
+<img src="assets/tile-crm.svg" alt="Spun Holding CRM, a private project. Persian, right-to-left, Jalali calendar, invoice workflow, team chat. Next.js, React, TypeScript, Prisma, PostgreSQL, Docker." width="100%">
 
 <br>
 
