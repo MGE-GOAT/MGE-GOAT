@@ -14,6 +14,9 @@
 @keyframes nd{0%,100%{transform:rotate(-38deg)}45%{transform:rotate(32deg)}70%{transform:rotate(10deg)}}
 @keyframes wv{50%{opacity:1}}
 @keyframes pulse{50%{opacity:.3}}
+.sig{stroke-dasharray:3 5;animation:flow 1.4s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-16}}
+.bl{transform-box:fill-box;transform-origin:center;animation:bl 4.2s infinite}
 </style><linearGradient id="gb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4f8cff"/><stop offset="1" stop-color="#9b7bff"/></linearGradient><linearGradient id="gc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9b7bff"/><stop offset="1" stop-color="#ff7a59"/></linearGradient><linearGradient id="gline" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4f8cff"/><stop offset=".55" stop-color="#9b7bff"/><stop offset="1" stop-color="#ff7a59"/></linearGradient></defs><rect width="1200" height="360" rx="22" fill="#090b10"/>
 <radialGradient id="o1" cx=".1" cy=".05" r=".6"><stop offset="0" stop-color="#4f8cff" stop-opacity=".22"/><stop offset="1" stop-color="#4f8cff" stop-opacity="0"/></radialGradient>
 <radialGradient id="o2" cx=".85" cy=".4" r=".5"><stop offset="0" stop-color="#9b7bff" stop-opacity=".2"/><stop offset="1" stop-color="#9b7bff" stop-opacity="0"/></radialGradient>
